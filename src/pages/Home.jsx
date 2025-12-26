@@ -23,6 +23,9 @@ const Home = () => {
                         <Sparkles size={20} color="#f59e0b" />
                         <span style={{ fontSize: '0.8rem', letterSpacing: '2px', textTransform: 'uppercase', color: 'var(--text-secondary)' }}>PREMIUM EDITION</span>
                     </div>
+                    <div style={{ marginBottom: '1rem', display: 'flex', justifyContent: 'center' }}>
+                        <img src="/logo.png" alt="Logo" style={{ width: '80px', height: '80px', borderRadius: '50%', objectFit: 'cover', border: '4px solid white', boxShadow: '0 8px 16px rgba(0,0,0,0.1)' }} />
+                    </div>
                     <h1 className="text-gradient" style={{ fontSize: '2.5rem', marginBottom: '0.5rem', lineHeight: 1.2 }}>عائلة المهندس طلال</h1>
                     <p style={{ fontSize: '1rem', opacity: 0.8 }}>التطبيق الرسمي (والسري) للعائلة</p>
                 </motion.div>
